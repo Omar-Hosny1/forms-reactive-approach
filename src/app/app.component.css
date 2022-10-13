@@ -1,0 +1,15 @@
+.container {
+  margin-top: 30px;
+}
+.animation {
+  position: relative;
+  animation: spanMove 1s ease forwards;
+}
+@keyframes spanMove {
+  0% {
+    bottom: 16px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
